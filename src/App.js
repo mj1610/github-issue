@@ -11,7 +11,7 @@ function App() {
           <Link to="/github-issues/">Github Issues</Link>
         </header>
         <Switch>
-          <Route exact path="/github-issues/:page?">
+          <Route exact path="/:page?">
             <Issues />
           </Route>
         </Switch>
